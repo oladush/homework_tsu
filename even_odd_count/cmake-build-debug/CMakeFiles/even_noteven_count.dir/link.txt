@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\even_noteven_count.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ar.exe cr CMakeFiles\even_noteven_count.dir/objects.a @CMakeFiles\even_noteven_count.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\even_noteven_count.dir/objects.a -Wl,--no-whole-archive  -o even_noteven_count.exe -Wl,--out-implib,libeven_noteven_count.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\even_noteven_count.dir\linklibs.rsp

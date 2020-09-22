@@ -1,0 +1,3 @@
+D:/code/CLionProjects/even_noteven_count/cmake-build-debug/CMakeFiles/even_noteven_count.dir
+D:/code/CLionProjects/even_noteven_count/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/code/CLionProjects/even_noteven_count/cmake-build-debug/CMakeFiles/rebuild_cache.dir

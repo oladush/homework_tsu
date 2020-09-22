@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\while_factorial.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ar.exe cr CMakeFiles\while_factorial.dir/objects.a @CMakeFiles\while_factorial.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\while_factorial.dir/objects.a -Wl,--no-whole-archive  -o while_factorial.exe -Wl,--out-implib,libwhile_factorial.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\while_factorial.dir\linklibs.rsp
