@@ -4,7 +4,10 @@
 void city_to(int n, int index, unsigned int *city, bool *city_out){
     city_out[index] = true;
     for (int i = n-1; i >= 0; i--){
+        // Достаем младший бит, выполняя коньюнкцию с единицей
+        // И проверяем, не 
         if (city[index] & 1 && !city_out[i]){
+            // 
             city_out[i] = true;
             city_to(n, i, city, city_out);
         }
@@ -38,6 +41,7 @@ int main() {
 
 //test 3
     int n = 7;
+    // Массив из булевых векторов, хранящий информацию маршрутах
     unsigned int city[7] = {
              0b0000100,
              0b0000010,
