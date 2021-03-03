@@ -1,0 +1,3 @@
+D:/code/CLionProjects/fsorter/cmake-build-debug/CMakeFiles/fsorter.dir
+D:/code/CLionProjects/fsorter/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/code/CLionProjects/fsorter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
