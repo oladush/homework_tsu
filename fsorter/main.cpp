@@ -220,11 +220,6 @@ void sort_machine(string *filename, string *f1, string *f2, string *f3, string *
         n = merger(&rf1, &rf2, &wf1, &wf2, n.n, n.m, step); // делаем "слияние"
         rf1.close(); rf2.close(); wf1.close(); wf2.close(); // закрываем потоки
 
-//        ofstream clr1, clr2;
-//        clr1.open(rfname1, std::ofstream::out | std::ofstream::trunc);
-//        clr2.open(rfname2, std::ofstream::out | std::ofstream::trunc);
-//        clr1.close(); clr2.close();
-
         clear(&rfname1); // очищаем файлы, которые прочитали
         clear(&rfname2);
 
